@@ -1,0 +1,5 @@
+Airbus A319: 156
+Airbus A320: 180
+ATR 72: 74
+Bombardier CRJ900: 90
+Embraer 195: 122
