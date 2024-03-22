@@ -22,7 +22,6 @@ with open(datoteka_l, "r", encoding="UTF-8") as letovi:
             recnik_letovi[grad][0] += ", " + avion
             recnik_letovi[grad][1] += ", " + let
 
-print(recnik_letovi["Podgorica"])
 while True:
     try:
         zeljeni_grad = input("Unesite zeljeni grad: ")
