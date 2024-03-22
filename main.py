@@ -1,6 +1,6 @@
 import re
 
-datoteka_a = "C:/Users/HP/PycharmProjects/Stvar1/avioni.txt"
+datoteka_a = "avioni.txt"
 with open(datoteka_a, "r", encoding="UTF-8") as avioni:
     recnik_avioni = {}
     sablon_avioni = re.compile(r"\s*[:]\s*")
@@ -9,7 +9,7 @@ with open(datoteka_a, "r", encoding="UTF-8") as avioni:
         tip, sedista = sablon_avioni.split(linija_bez_razmaka)
         recnik_avioni[tip] = int(sedista)
 
-datoteka_l = "C:/Users/HP/PycharmProjects/Stvar1/letovi1.txt"
+datoteka_l = "letovi1.txt"
 with open(datoteka_l, "r", encoding="UTF-8") as letovi:
     recnik_letovi = {}
     sablon1 = re.compile(r"\s*[:,]\s*")
